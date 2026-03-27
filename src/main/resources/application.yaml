@@ -9,4 +9,10 @@ spring:
     username: postgres
     password: root
 
+jwe:
+  key-id: student-api-rsa
 
+jwt:
+  secret: my-super-secret-local-development-signing-key-please-change-123456
+  access-token-expiration-minutes: 15
+  refresh-token-expiration-days: 7
